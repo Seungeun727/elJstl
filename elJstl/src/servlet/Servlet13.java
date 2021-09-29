@@ -29,11 +29,9 @@ public class Servlet13 extends HttpServlet {
 		request.setAttribute("userList", userList);
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/13.jsp");
 		rd.forward(request, response);
-
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
-
 }

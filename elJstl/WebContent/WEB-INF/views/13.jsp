@@ -2,7 +2,6 @@
 <%@ page import="java.util.List" %>
 <%@ page import="vo.UserVo" %>
 
-
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <% 
@@ -17,7 +16,6 @@
 </head>
 <body>
 	<h1>사용자 리스트</h1>
-	
 	<table border=1>
 		<tr>
 			<td>no</td><td>name</td><td>email</td>
