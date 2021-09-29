@@ -46,17 +46,6 @@
 				<td>${status.index }</td>
 				<td>${status.count }</td>
 		</c:forEach>	
-	
-
-
-
-		
-	
 	</table>
-	
-	
-	
-	
-
 </body>
 </html>
