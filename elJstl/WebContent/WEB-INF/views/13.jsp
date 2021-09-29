@@ -25,8 +25,7 @@
 			<tr>
 				<td><%=userVo.getNo() %></td><td><%=userVo.getName() %></td><td><%=userVo.getEmail() %></td>
 			</tr>
-		<% } %>
-		
+		<% } %>	
 	</table>
 	
 	<br />

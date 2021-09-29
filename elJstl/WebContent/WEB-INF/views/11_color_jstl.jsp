@@ -50,6 +50,5 @@
 			<span style="color: black">검정</span>
 		</c:otherwise>
 	</c:choose>
-	
 </body>
 </html>
