@@ -20,7 +20,6 @@
 		<tr>
 			<td>no</td><td>name</td><td>email</td>
 		</tr>
-	
 		<% for(UserVo userVo : userList) { %>
 			<tr>
 				<td><%=userVo.getNo() %></td><td><%=userVo.getName() %></td><td><%=userVo.getEmail() %></td>

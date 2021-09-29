@@ -11,7 +11,6 @@
 
 </head>
 <body>
-
 	<h3>JSP 스크립틀릿</h3>
 	<%
 	if( "1".equals( request.getParameter("color") ) ) {	

@@ -33,7 +33,6 @@
 	%>
 	
 	<h3>JSTL 조건 분기</h3>
-	
 	<%-- c:choose, c:when, c:otherwise 
 		Java의 if ~ else if ~ else 문의 역할--%>
 	<c:choose>

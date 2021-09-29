@@ -17,7 +17,6 @@ public class Servlet10 extends HttpServlet {
 	/*
 	 localhost:8088/eljstl/10?color=1 
 	 */
-	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/10_color_jstl.jsp");
 		rd.forward(request, response);
