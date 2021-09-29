@@ -1,5 +1,6 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
+	
 	pageContext.setAttribute("name","page name");
 	request.setAttribute("name", "request name");
 	session.setAttribute("name", "session name");
@@ -23,7 +24,14 @@
 	
 	<h2>el</h2>                   
 	
-
+	<p>name: ${name }</p>
+	<%-- 여러 영역에 같은 이름의 객체가 있을 때, scope 영역을 명시해야 한다. --%>
+	<ul>
+		<li>page scope: ${pageScope.name }</li>
+		<li>request scope: ${requestScope.name }</li>
+		<li>session scope: ${sessiongScope.name }</li>
+		<li>application scope: ${applicationScope.name }</li>
+	</ul>
 
 
 
